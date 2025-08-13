@@ -10,5 +10,6 @@ Automation Catapa
 * Run automation `parkingspec.cy`
 
 ## Run Automation 
-`./node_modules/.bin/cypress open`
+`npm run e2e:chrome --spec "cypress/e2e/parkingspec.cy.js"`
+`npx cypress open`
 
